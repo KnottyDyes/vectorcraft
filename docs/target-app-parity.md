@@ -11,7 +11,6 @@ the work list made from it. Deep areas have their own checklists: [UI and intera
 
 | Number | Value | Kind |
 |---|---|---|
-| 2026-10-21 | minor | Raster/PSD defaults honor document resolution; CLI run/convert accept --ppi, matching MCP options.ppi precedence. Synthetic regressions added; scores and hours unchanged. |
 | 2026-10-15 | minor | Image Trace retains nonzero positioned boundaries when a fixed-end returning piece has fewer than two fitted cubics. Source-generated tests check survival, winding, shared-edge reversal and Noise controls; see `image-trace-quality.md`. Scores and hours unchanged. |
 | **Feature breadth** (does each Illustrator menu item, tool, effect and format exist?) | **~88%** | measured in part: menu tree 353 of 375 items wired (94.1%), tools 89 of 92 (97%), vector effects 44 of 50 (88%), Photoshop-style effects 47 of 57 (82%), 3D 4 of 4 (initial: Extrude & Bevel, Revolve, Inflate, Rotate); blended by the area weights below |
 | **Feature depth** (each area scored by behaviour, weighted) | **~75%** | estimated, area table below |
@@ -894,6 +893,7 @@ Evidence for the shared light Color: geometry tests in `tests_lighting`, effect 
 
 | Date | Change | Summary |
 |---|---|---|
+| 2026-10-21 | minor | Raster/PSD defaults honor document resolution; CLI run/convert accept --ppi, matching MCP options.ppi precedence. Synthetic regressions added; scores and hours unchanged. |
 | 2026-10-20 | minor | Polygon and Star exact-size placement remembers the chosen count for later drags and dialog openings; Cancel preserves the previous count; existing opening gestures retained; scores and hours unchanged. |
 | 2026-10-20 | minor | Live trace result bounds and selection highlights exclude the retained bitmap except in source-image views; scores and hours unchanged. |
 | 2026-10-20 | minor | M3.57: CSS swatch libraries preserve fractional stop positions in linear and radial gradients; synthetic color-crate regression. Scores and hours unchanged. |
